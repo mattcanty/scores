@@ -1,5 +1,13 @@
 #!/bin/bash
 
+if [ -z "$1" ]
+then
+  echo "Must provide path to scores, eg '/' or '/madness'"
+  exit
+fi
+
+
+
 case "$OSTYPE" in
   darwin*)  mscore="mscore" ;;
   *)        mscore="musescore" ;;
