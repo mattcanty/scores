@@ -1,9 +1,9 @@
 # Prerequisites
 ## MuseScore
-Add `mscore cli` to `PATH` 
+Download and install MuseScore from https://musescore.org/
 
 ### Mac OS
-`export PATH="/Applications/MuseScore 2.app/Contents/MacOS/":$PATH`
+In your shell run: `export PATH="/Applications/MuseScore 2.app/Contents/MacOS/":$PATH`
 
 ### Windows
 Add `musescore` bin to your path
