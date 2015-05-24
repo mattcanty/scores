@@ -9,6 +9,8 @@ In your shell run: `export PATH="/Applications/MuseScore 2.app/Contents/MacOS/":
 Add `musescore` bin to your path
 
 # Getting Started
+All score data is stored in `src/`. Generated files will be dumped in `output/`.
+
 ### Generate all scores
 `./generate.sh /`
 
