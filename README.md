@@ -10,13 +10,13 @@ Add `musescore` bin to your path
 
 # Getting Started
 ### Generate all scores
-`sh generate.sh /`
+`./generate.sh /`
 
 ### Generate all Madness scores
-`sh generate.sh /madness`
+`./generate.sh /madness`
 
 ### Generate all House Of Fun by Madness scores
-`sh generate.sh /madness/house-of-fun`
+`./generate.sh /madness/house-of-fun`
 
 ### Generate bass score of House of Fun by Madness
-`sh generate.sh /madness/house-of-fun/bass`
+`./generate.sh /madness/house-of-fun/bass`
