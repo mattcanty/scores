@@ -1,4 +1,10 @@
 #!/bin/bash
+
+case "$OSTYPE" in
+  darwin*)  mscore="mscore" ;;
+  *)        mscore="musescore" ;;
+esac
+
 find src/$1 -name '*.xml' | while read line; do
 
 	outputFile="${line/.xml/.pdf}"
@@ -8,7 +14,7 @@ find src/$1 -name '*.xml' | while read line; do
 
     echo "Processing '${line##*/}'"
 
-    mscore $line -o $outputFile
+    "${mscore}" $line -o $outputFile
     
     echo "Generated '${outputFile##*/}'"
 done
